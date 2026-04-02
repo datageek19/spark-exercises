@@ -1,0 +1,3 @@
+Let’s say we have a bot with a root agent and multiple sub-agents. One of the sub-agents is responsible for handling transactions (e.g., transaction_agent). When a user’s intent is routed to this transaction_agent, we need to call an authenticated transaction API that requires a token.
+In this scenario, how can we trigger a browser pop-up (or authentication flow) from the transaction_agent so that the user can enter their credentials, and then seamlessly pass the generated token back to the transaction_agent for further processing?
+It would be great if you could also provide a working example for this use case.
